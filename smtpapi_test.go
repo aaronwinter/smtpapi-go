@@ -5,6 +5,7 @@ import (
 	"io/ioutil"
 	"reflect"
 	"testing"
+	"smtp"
 )
 
 func ExampleJson() map[string]interface{} {

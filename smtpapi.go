@@ -112,7 +112,7 @@ func (h *SMTPAPIHeader) AddUniqueArg(arg, value string) {
 func (h *SMTPAPIHeader) SetUniqueArgs(args map[string]string) {
 	h.UniqueArgs = args
 }
-
+// Refactor from here
 // AddFilter will set the specific setting for a filter
 func (h *SMTPAPIHeader) AddFilter(filter, setting, value string) {
 	if h.Filters == nil {
